@@ -1,0 +1,110 @@
+h1,h2,form{
+  text-align: center;
+}
+
+body,form,p{
+  margin: 0;
+}
+
+a{
+  color :blue;
+}
+
+p{
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.error{
+  text-align: center;
+  color: red;
+}
+
+.strong{
+  font-size: 150%;
+}
+
+button{
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 1px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+  outline:none;
+}
+
+button:hover{
+  background: #67c5ff;
+  color: white;
+}
+
+.button{
+  display: block;
+  z-index: 1;
+}
+
+
+.flexbox{
+  display:flex;
+  text-align: center;
+  position: relative;
+}
+
+.posts{
+  background-color: #ffeecc;
+  width: 100%;
+}
+
+.posts:hover{
+  background:#ffee;
+}
+
+.posts a{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.posts p{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: blue;
+}
+
+/* form */
+.cp_iptxt {
+	position: relative;
+	margin: 20px 20%;
+}
+
+.cp_iptxt input,textarea{
+  text-align: center;
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.ef input:focus,textarea:focus {
+	border: 1px solid #da3c41;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
